@@ -1,0 +1,12 @@
+Exercise 1-11. How would you test the word count program? What kinds of input are most
+likely to uncover bugs  if  there are any?
+
+First bug:
+      how do we know if 'a' is a letter or word?
+      in english 'a' can be a word or a letter
+      what is a word? well a word in our program is a characters sequence
+      you got it,characters not character,also there are words like 'a'
+      in this case is dependent of the programer take a one 'a' as a word
+      or character
+Tests:
+      test a void input in the program
